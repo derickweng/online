@@ -8,7 +8,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { StarsComponent } from './stars/stars.component';
 import { SearchComponent } from './search/search.component';
 import { ProductComponent } from './product/product.component';
-
+import * as $ from 'jquery';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,4 +25,5 @@ import { ProductComponent } from './product/product.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}

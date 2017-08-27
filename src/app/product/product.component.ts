@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-
+  private products: Array<Product>;
   constructor() { }
 
   ngOnInit() {
   }
 
+}
+export class Product {
+  constructor(
+    public id: number,
+    public title: string,
+    public price: number,
+    public rating: number,
+  ) {
+    
+  }
 }
